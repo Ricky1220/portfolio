@@ -28,6 +28,65 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- Inline CSS for Hero Section Responsiveness -->
+  <style>
+    #hero {
+      position: relative;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background: url('assets/img/hero-bg.png') no-repeat center center;
+      background-size: cover;
+      color: white;
+    }
+
+    #hero img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -1;
+    }
+
+    #hero h2 {
+      font-size: 3rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+    }
+
+    #hero p {
+      font-size: 1.5rem;
+    }
+
+    #hero .typed {
+      color: #00ccff;
+    }
+
+    /* Mobile Portrait Responsiveness */
+    @media (max-width: 576px) {
+      #hero {
+        min-height: 60vh;
+        padding: 20px;
+      }
+
+      #hero h2 {
+        font-size: 1.8rem;
+      }
+
+      #hero p {
+        font-size: 1rem;
+      }
+
+      #hero .container {
+        padding: 0 10px;
+      }
+    }
+  </style>
 </head>
 
 <body class="index-page">
@@ -62,14 +121,13 @@
         <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
       </ul>
     </nav>
-
   </header>
 
   <main class="main">
 
-    <!-- Hero Section -->
+    <!-- Hero Section (Updated for Responsiveness) -->
     <section id="hero" class="hero section dark-background">
-      <img src="assets/img/hero-bg.png" alt="" data-aos="fade-in" class="">
+      <img src="assets/img/52BE2026-7AEC-4A54-B7E6-B9A502F27F0F.jpeg" alt="" data-aos="fade-in" class="">
       <div class="container" data-aos="fade-up" data-aos-delay="100">
         <h2>Ricky Fernando</h2>
         <p>I'm <span class="typed"
