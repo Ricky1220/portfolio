@@ -16,7 +16,7 @@
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@500;600;700;800&display=swap"
     rel="stylesheet">
 
   <!-- Vendor CSS Files -->
@@ -29,64 +29,6 @@
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
-  <!-- Inline CSS for Hero Section Responsiveness -->
-  <style>
-    #hero {
-      position: relative;
-      min-height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      background: url('assets/img/hero-bg.png') no-repeat center center;
-      background-size: cover;
-      color: white;
-    }
-
-    #hero img {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      z-index: -1;
-    }
-
-    #hero h2 {
-      font-size: 3rem;
-      font-weight: 700;
-      margin-bottom: 1rem;
-    }
-
-    #hero p {
-      font-size: 1.5rem;
-    }
-
-    #hero .typed {
-      color: #00ccff;
-    }
-
-    /* Mobile Portrait Responsiveness */
-    @media (max-width: 576px) {
-      #hero {
-        min-height: 60vh;
-        padding: 20px;
-      }
-
-      #hero h2 {
-        font-size: 1.8rem;
-      }
-
-      #hero p {
-        font-size: 1rem;
-      }
-
-      #hero .container {
-        padding: 0 10px;
-      }
-    }
-  </style>
 </head>
 
 <body class="index-page">
@@ -131,8 +73,8 @@
       <div class="container" data-aos="fade-up" data-aos-delay="100">
         <h2>Ricky Fernando</h2>
         <p>I'm <span class="typed"
-            data-typed-items="Software-Engineer,Web Developer,System Developer, Freelancer">Software-Engineer</span><span
-            class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
+            data-typed-items="a Software Engineer, a Web Developer, a System Developer, a Freelancer">a Software
+            Engineer</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
       </div>
     </section><!-- /Hero Section -->
 
@@ -164,7 +106,7 @@
               </div>
               <div class="col-lg-6">
                 <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>24</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>25</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Bachelor of Computer Science,
                       University of Ruhuna</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>evensanu1220@gmail.com</span>
@@ -188,12 +130,12 @@
     <!-- Stats Section -->
     <section id="stats" class="stats section">
       <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <div class="row gy-4">
+        <div class="row g-4">
           <div class="col-lg-3 col-md-6">
             <div class="stats-item">
               <i class="bi bi-emoji-smile"></i>
-              <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1"
-                class="purecounter"></span>
+              <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1"
+                data-purecounter-suffix="+" class="purecounter"></span>
               <p><strong>Satisfied Customers</strong> <span>Delighted with exceptional results</span></p>
             </div>
           </div><!-- End Stats Item -->
@@ -201,7 +143,7 @@
             <div class="stats-item">
               <i class="bi bi-journal-richtext"></i>
               <span data-purecounter-start="0" data-purecounter-end="20" data-purecounter-duration="1"
-                class="purecounter"></span>
+                data-purecounter-suffix="+" class="purecounter"></span>
               <p><strong>Projects</strong> <span>Crafted with precision and passion</span></p>
             </div>
           </div><!-- End Stats Item -->
@@ -216,7 +158,7 @@
             <div class="stats-item">
               <i class="bi bi-clock"></i>
               <span data-purecounter-start="0" data-purecounter-end="20" data-purecounter-duration="1"
-                class="purecounter"></span>
+                data-purecounter-suffix="+" class="purecounter"></span>
               <p><strong>Timely Deliveries</strong> <span>Projects completed ahead of schedule</span></p>
             </div>
           </div><!-- End Stats Item -->
@@ -262,9 +204,16 @@
               </div>
             </div><!-- End Skills Item -->
             <div class="progress">
-              <span class="skill"><span>Python</span> <i class="val">80%</i></span>
+              <span class="skill"><span>Next.js</span> <i class="val">80%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div><!-- End Skills Item -->
+            <div class="progress">
+              <span class="skill"><span>MySQL</span> <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
                 </div>
               </div>
             </div><!-- End Skills Item -->
@@ -274,6 +223,20 @@
               <span class="skill"><span>PHP</span> <i class="val">80%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div><!-- End Skills Item -->
+            <div class="progress">
+              <span class="skill"><span>Express.js</span> <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div><!-- End Skills Item -->
+            <div class="progress">
+              <span class="skill"><span>Java</span> <i class="val">85%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
                 </div>
               </div>
             </div><!-- End Skills Item -->
@@ -291,13 +254,7 @@
                 </div>
               </div>
             </div><!-- End Skills Item -->
-            <div class="progress">
-              <span class="skill"><span>MySQL</span> <i class="val">90%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div><!-- End Skills Item -->
+
             <div class="progress">
               <span class="skill"><span>Firebase</span> <i class="val">80%</i></span>
               <div class="progress-bar-wrap">
@@ -350,6 +307,8 @@
               <p>Enhanced communication and analytical skills, complementing technical expertise with strong language
                 proficiency.</p>
             </div><!-- End Resume Item -->
+          </div>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
             <h3 class="resume-title">Skills</h3>
             <div class="resume-item">
               <h5>Programming Languages</h5>
@@ -400,71 +359,6 @@
                 <li>Microservices</li>
               </ul>
             </div><!-- End Resume Item -->
-          </div>
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-            <h3 class="resume-title">Projects</h3>
-            <div class="resume-item">
-              <h4>Web App for Zelona Tours PVT LTD</h4>
-              <h5>2024 - Present</h5>
-              <p><em>Travel Booking Platform</em></p>
-              <ul>
-                <li>Developed a user-friendly web application for booking curated tour packages and excursions in Sri
-                  Lanka.</li>
-                <li>Integrated features for seamless trip planning and destination exploration.</li>
-                <li>Technologies: React, Node.js, EmailJS, Tailwind CSS, Figma</li>
-              </ul>
-            </div><!-- End Resume Item -->
-            <div class="resume-item">
-              <h4>Habitat Management System</h4>
-              <h5>2023 - 2024</h5>
-              <p><em>2nd Year University Project</em></p>
-              <ul>
-                <li>Designed a web-based system to monitor and manage habitats for environmental sustainability.</li>
-                <li>Implemented efficient resource allocation and data tracking functionalities.</li>
-                <li>Technologies: Java, JavaFX, MySQL</li>
-              </ul>
-            </div><!-- End Resume Item -->
-            <div class="resume-item">
-              <h4>Web App for Cinnamon Mantra Ayurveda Spa & Luxury Villa</h4>
-              <h5>2024</h5>
-              <p><em>Spa and Villa Booking Platform</em></p>
-              <ul>
-                <li>Created a seamless booking platform for spa treatments and luxury villa stays.</li>
-                <li>Focused on delivering a serene and holistic user experience.</li>
-                <li>Technologies: React+Vite, Node.js, EmailJS, Bootstrap, Figma, Elfsight</li>
-              </ul>
-            </div><!-- End Resume Item -->
-            <div class="resume-item">
-              <h4>Management System for Hiru Resorts</h4>
-              <h5>2024</h5>
-              <p><em>Hotel Management System</em></p>
-              <ul>
-                <li>Developed a comprehensive system enabling seamless management of hotel operations with full CRUD
-                  functionality.</li>
-                <li>Designed to enhance efficiency, automate processes, and improve the overall guest experience.</li>
-                <li>Technologies: HTML, PHP, MySQL, Heroku Hosting, Microservices, Bootstrap</li>
-              </ul>
-            </div><!-- End Resume Item -->
-            <div class="resume-item">
-              <h4>Guest Registration and Billing System for Hotel Bougainvilla</h4>
-              <h5>2024</h5>
-              <p><em>Hotel Operations System</em></p>
-              <ul>
-                <li>Built a system to streamline guest registration and billing processes for improved operational
-                  efficiency.</li>
-                <li>Technologies: HTML, CSS, JavaScript, PHP, MySQL</li>
-              </ul>
-            </div><!-- End Resume Item -->
-            <div class="resume-item">
-              <h4>Medical Centre System for Ruhunu Medi Care to Dr. Daminda</h4>
-              <h5>2024</h5>
-              <p><em>Healthcare Management System</em></p>
-              <ul>
-                <li>Developed a system to manage medical centre operations, enhancing patient care and administrative
-                  workflows.</li>
-                <li>Technologies: HTML, CSS, JavaScript, PHP, MySQL</li>
-              </ul>
-            </div><!-- End Resume Item -->
             <h3 class="resume-title">Extracurricular Activities & Certificates</h3>
             <div class="resume-item">
               <h4>Inter Faculty Hackathon (INSURGEX 1.0)</h4>
@@ -494,8 +388,6 @@
             <li data-filter="*" class="filter-active">All</li>
             <li data-filter=".filter-websites">Websites</li>
             <li data-filter=".filter-systems">Systems</li>
-            <li data-filter=".filter-business-profiles">Business Profiles</li>
-            <li data-filter=".filter-flyers">Flyers</li>
           </ul><!-- End Portfolio Filters -->
           <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-websites">
@@ -524,6 +416,77 @@
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-websites">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/logo.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Sonic Tours Website</h4>
+                  <p>A modern travel website for tour discovery, inquiries, and bookings.</p>
+                  <a href="assets/img/portfolio/logo.jpg" title="Sonic Tours Website"
+                    data-gallery="portfolio-gallery-websites" class="glightbox preview-link"><i
+                      class="bi bi-zoom-in"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-websites">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/logo.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Mahi Beach Ayurveda Resort</h4>
+                  <p>A resort website focused on wellness stays and ayurveda experiences.</p>
+                  <a href="assets/img/portfolio/logo.jpeg" title="Mahi Beach Ayurveda Resort"
+                    data-gallery="portfolio-gallery-websites" class="glightbox preview-link"><i
+                      class="bi bi-zoom-in"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-websites">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/logo 3.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Muthumuni Ayurveda Resort</h4>
+                  <p>A calming hospitality site for ayurveda services and room reservations.</p>
+                  <a href="assets/img/portfolio/logo 3.png" title="Muthumuni Ayurveda Resort"
+                    data-gallery="portfolio-gallery-websites" class="glightbox preview-link"><i
+                      class="bi bi-zoom-in"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-websites">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/p.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Sun Flower Ayurvedas Resort</h4>
+                  <p>A responsive resort website showcasing treatment plans and accommodations.</p>
+                  <a href="assets/img/portfolio/p.png" title="Sun Flower Ayurvedas Resort"
+                    data-gallery="portfolio-gallery-websites" class="glightbox preview-link"><i
+                      class="bi bi-zoom-in"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-websites">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/3.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Dara Gems</h4>
+                  <p>A product and brand website built to present gem collections professionally.</p>
+                  <a href="assets/img/portfolio/3.jpg" title="Dara Gems" data-gallery="portfolio-gallery-websites"
+                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-websites">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/image.ef2ebec8531c9e20ae71.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Pruthuvi Tours</h4>
+                  <p>A travel website for destination highlights, tour packages, and customer inquiries.</p>
+                  <a href="assets/img/portfolio/image.ef2ebec8531c9e20ae71.png" title="Pruthuvi Tours"
+                    data-gallery="portfolio-gallery-websites" class="glightbox preview-link"><i
+                      class="bi bi-zoom-in"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-systems">
               <div class="portfolio-content h-100">
                 <img src="assets/img/portfolio/84028339-39B4-4C37-85BF-924D7F593B7C_1_105_c.jpeg" class="img-fluid"
@@ -537,16 +500,15 @@
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-systems">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-websites">
               <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/DDBE6CBC-0F1D-40A3-9BFE-9E6179EEDCBB_1_105_c.jpeg" class="img-fluid"
-                  alt="">
+                <img src="assets/img/portfolio/logo-orange.svg" class="img-fluid" alt="">
                 <div class="portfolio-info">
-                  <h4>Hiru Resorts Management System</h4>
-                  <p>A comprehensive hotel management system with full CRUD functionality.</p>
-                  <a href="assets/img/portfolio/DDBE6CBC-0F1D-40A3-9BFE-9E6179EEDCBB_1_105_c.jpeg"
-                    title="Hiru Resorts Management System" data-gallery="portfolio-gallery-systems"
-                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <h4>Hiru Resorts Website</h4>
+                  <p>A hotel website designed for showcasing services, rooms, and booking details.</p>
+                  <a href="assets/img/portfolio/logo-orange.svg" title="Hiru Resorts Website"
+                    data-gallery="portfolio-gallery-websites" class="glightbox preview-link"><i
+                      class="bi bi-zoom-in"></i></a>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
@@ -575,37 +537,41 @@
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-business-profiles">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-systems">
               <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/business-profile-1.jpg" class="img-fluid" alt="">
+                <img src="assets/img/portfolio/Screenshot 2026-03-16 at 09.39.10.png" class="img-fluid" alt="">
                 <div class="portfolio-info">
-                  <h4>Business Profile 1</h4>
-                  <p>A professional digital profile showcasing a company’s services and identity.</p>
-                  <a href="assets/img/portfolio/business-profile-1.jpg" title="Business Profile 1"
-                    data-gallery="portfolio-gallery-business-profiles" class="glightbox preview-link"><i
+                  <h4>Hiru Resorts Stock Management Inventory System</h4>
+                  <p>An inventory solution for stock tracking, updates, and reporting workflows.</p>
+                  <a href="assets/img/portfolio/Screenshot 2026-03-16 at 09.39.10.png"
+                    title="Hiru Resorts Stock Management Inventory System" data-gallery="portfolio-gallery-systems"
+                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-systems">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/Screenshot 2026-03-16 at 09.42.06.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Dara Gems Products Management Inventory System</h4>
+                  <p>A product inventory platform to manage gem items, quantities, and stock movement.</p>
+                  <a href="assets/img/portfolio/Screenshot 2026-03-16 at 09.42.06.png"
+                    title="Dara Gems Products Management Inventory System" data-gallery="portfolio-gallery-systems"
+                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-systems">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/469451997_1134656228663250_1044735351319028687_n.jpg" class="img-fluid"
+                  alt="">
+                <div class="portfolio-info">
+                  <h4>School Management System for Wisdom International College</h4>
+                  <p>A full school operations system for student records, administration, and reporting.</p>
+                  <a href="assets/img/portfolio/469451997_1134656228663250_1044735351319028687_n.jpg"
+                    title="School Management System for Wisdom International College"
+                    data-gallery="portfolio-gallery-systems" class="glightbox preview-link"><i
                       class="bi bi-zoom-in"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-flyers">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/flyer-1.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Flyer 1</h4>
-                  <p>A vibrant flyer designed to promote events and attract attention.</p>
-                  <a href="assets/img/portfolio/flyer-1.jpg" title="Flyer 1" data-gallery="portfolio-gallery-flyers"
-                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-flyers">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/flyer-2.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Flyer 2</h4>
-                  <p>An eye-catching flyer crafted for marketing campaigns and promotions.</p>
-                  <a href="assets/img/portfolio/flyer-2.jpg" title="Flyer 2" data-gallery="portfolio-gallery-flyers"
-                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
@@ -622,7 +588,7 @@
           dedicated to providing top-notch services that drive success and growth for your business.</p>
       </div><!-- End Section Title -->
       <div class="container">
-        <div class="row gy-4">
+        <div class="row g-4">
           <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
             <div class="icon flex-shrink-0"><i class="bi bi-briefcase"></i></div>
             <div>
